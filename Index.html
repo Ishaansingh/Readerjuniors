@@ -7,7 +7,171 @@
     <title>Reader juniors</title>
     </head>
     <body>
+      <!DOCTYPE html>
+    <img src="object-cover object-center rounded" alt="whatsapp mark"src="whatsapp.png">  <a href=" https://chat.whatsapp.com/CjPs3vrMi2N0gTnEHpJ7yF" class="button"> Join our whatsapp group</a>
+    </body>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+</style>
+<body>
+
+<h2>Modal Signup Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
       
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
         <header class="text-gray-600 body-font">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
               <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -35,7 +199,7 @@
           <section class="text-gray-600 body-font">
             <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
               <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?online,school">
+                <img class="object-cover object-center rounded" alt="hero" src="Laptop Img.jpg">
               </div>
               <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to Reader juniors
@@ -70,163 +234,114 @@
                 </div>
               </div>
               <h></h>
-            </div>
-          </section>
-          <section class="text-gray-600 body-font relative">
-            <div class="container px-5 py-24 mx-auto">
-              <div class="flex flex-col text-center w-full mb-12">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">any problem kindly contact us.</p>
-              </div>
-              <div class="lg:w-1/2 md:w-2/3 mx-auto">
-                <div class="flex flex-wrap -m-2">
-                  <div class="p-2 w-1/2">
-                    <div class="relative">
-                      <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-                      <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                    </div>
-                    <div class="p-2 w-1/2">
-                      <div class="relative">
-                        <label for="email" class="leading-7 text-sm text-gray-600">phone</label>
-                        <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="p-2 w-1/2">
-                    <div class="relative">
-                      <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-                      <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                    </div>
-                  </div>
-                 
-                  <div class="p-2 w-full">
-                    <div class="relative">
-                      <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-                      <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                    </div>
-                   
-                  </div>
-                  <div class="p-2 w-full">
-                    <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
-                  </div>
-                  <h></h>
-                  <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                    <a class="text-indigo-500">example@email.com</a>
-                    <p class="leading-normal my-5">49 Smith St.
-                      <br>Saint Cloud, MN 56301
-                    </p>
-                    <span class="inline-flex">
-                      <a class="text-gray-500">
-                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                        </svg>
-                        <hr>
-                      </a>
-                      <a class="ml-4 text-gray-500">
-                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                        </svg>
-                      </a>
-                      <a class="ml-4 text-gray-500">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                        </svg>
-                      </a>
-                      <a class="ml-4 text-gray-500">
-                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                        </svg>
-                      </a>
-                    </span>
+           
+              <span class="inline-flex">
+                <a class="text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                  <hr>
+                </a>
+                <a class="ml-4 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-4 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-4 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
                   </div>
                 </div>
               </div>
              
-            </div>
-          </section>
-          <!DOCTYPE html>
-          <html>
-            <head>
-              <title>Title of the document</title>
-              <style>
-                input:not[type="submit"] {
-                  background-color: #ffffff;
-                  border: 1px solid #cccccc;
-                  padding: 2px;
-                }
-                input:-webkit-autofill {
-                  -webkit-box-shadow: 0 0 0 1000px white inset !important;
-                }
-                .hidden {
-                  display: none;
-                }
-              </style>
-            </head>
-            <body>
-              <form autocomplete="on" method="Email" action="/form/submit">
-                <input autocomplete="false" name="hidden" type="text" class="hidden">
-                <div>
-                  <label for="name">Name
-                    <input type="text" name="name" Id="name" placeholder="Enter Your Name">
-                  </label>
-                </div>
-                <br/>
-                <div>
-                  <label for="email">Email
-                    <input type="Email" name="email" Id="email" placeholder="Enter Your Email">
-                  </label>
-                </div>
-                <br/>
-           <label for="phone">phone
-                    <input type="text" name="phone" Id="phone" placeholder="Enter Your phone">
-                  </label>
-                </div>
-                <br/>
-          
-                <div>
-                <input type="submit" value=" submit ">
-              </form>
-          
-            </body>
-          </html>
-          <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title of the document</title>
-    <style>
-      body {
-        background-color: #ffffff;
-      }
-      form {
-        width: 400px;
-        margin: auto;
-        margin-top: 250px;
+      <hr>
+      <hr>     
+  <body>
+    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Contact us
+      <br class="hidden lg:inline-block">
+       </h1>
+   
 
-      }
-      input {
-        padding: 4px 10px;
-        border: 5px;
-        font-size: 16px;
-      }
-      .search {
-        width: 75%;
-;
-      }
-      .submit {
+       <a href="https://docs.google.com/forms/d/e/1FAIpQLSffbt4LucQBj-lHdHl13vO5bbEhWhiycHNx96g9OlVOuJGU4w/viewform?usp=pp_url" class="button">click here for Contact us</a>
+      </body>
+    </html>
+    <hr>
+  </div>
+</div>
+<h></h>
+<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">plan&pricing
+  <br class="hidden lg:inline-block">
+   </h1>
+
+      Monthly
+
+   <html>                 
+  <head>
+    <style>
+      .div1 {
+        box-sizing: content-box;
         width: 70px;
-        background-color: #1c87c9;
-      color: #sssss;
+        height: 770px;
+        padding: 50px;
+        border: 5px double #1c87c9;
       }
+      
     </style>
   </head>
   <body>
-    <h2> </h2>
-    <form action="/form/submit" method="GET">
-      <input type="text" name="text" class="search" placeholder="Search here!">
-      <input type="submit" name="submit" class="submit" value="Search">
-    </form>
+    <h2></h2>
+  
+  
+    <div class="div1">Subjects
+      <HR></HR>
+     
+   
+        
+      English
+      
+   Rs.150
+      <hr>
+    science
+Rs.150
+<hr>
+Math
+Rs.150
+<hr>
+S.S.T
+Rs.150
+   <hr>
+EVS
+Rs.150
+<hr>
+G.K & Quizzes
+Rs.100
+<hr>
+special discount
+30%
+<hr>
+Total
+Rs.700
+<hr>
+<a href="" class="button">Buy now</a>
+</body>
+</html>
+
+     
+    </div>
+    <br>
+    
+ 
   </body>
 </html>
-    </body>
+  </body>
 </html>
+   
