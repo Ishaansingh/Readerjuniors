@@ -1,0 +1,13 @@
+ <body>
+    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Contact us
+      <br class="hidden lg:inline-block">
+       </h1>
+   
+
+       <a href="https://docs.google.com/forms/d/e/1FAIpQLSffbt4LucQBj-lHdHl13vO5bbEhWhiycHNx96g9OlVOuJGU4w/viewform?usp=pp_url" class="button">click here for Contact us</a>
+      </body>
+    </html>
+    <hr>
+  </div>
+</div>
+</body>
