@@ -1,292 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
-  <!DOCTYPE html>
 <html>
 <head>
-
-
-<form action="https://readerjrlogin.netlify.app/">
-<button>login/register</button></form>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-   button {
-                          background-color: #1c87c9;
-                          border: 50px;
-                          color: white;
-                          padding: 20px 34px;
-                          text-align: center;
-                          text-decoration: none;
-                          display: inline-block;
-                          font-size: 20px;
-                          margin: 4px 2px;
-                          cursor: pointer;
-                        }
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
 </style>
-
-<p id="rcorners3"></p>
-
-</body>
-</html>
-
-  <a href="tel:+919936096266" onclick="GA_FLAG &amp;&amp; ga(&quot;send&quot;, &quot;event&quot;,&quot;call us button Home Page mobile&quot;,&quot;call us button Home Page mobile&quot;, &quot;call us button Home Page mobile&quot;);"><img class="call-icon-mobile" src="https://cdn1.byjus.com/home/call.svg" alt="byjus.com" width="24" height="24">Call  us.</a>
 </head>
-   
-     
- 
-
-
-
-</body>
-</html>
-                    
-                </svg>
-                <span class="ml-3 text-xl">Reader juniors</span>
-              </a>
-             
-              
+<body>
 <style>
-              body {
-                padding-top: 50px;
-                background: url(https://images.pexels.com/photos/74775/pexels-photo-74775.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
-                background-size: cover;
-              }
-              
-              .navbar.navbar-inverse {
-                background: rgba(0, 0, 0, 0.45);
-                border: none;
-              }
-              
-              .navbar-brand {
-                position: relative;
-              }
-              
-              .navbar-brand:after {
-                content: '';
-                position: absolute;
-                right: -100%;
-                background: #fff;
-                left: -500px;
-                height: 100%;
-                top: 0;
-                z-index: -1;
-                transform: skewX(-45deg);
-              }
-              
-              .navbar-collapse .navbar-nav {
-                float: right;
-              }
-              
-              @media (max-width: 767px) {
-                .navbar-collapse .navbar-nav {
-                  float: none;
-                }
-              }</style>
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-              <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-              
-              <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="https://reader-juniors.netlify.app/" style= "background-color: black;""color: black;">Reader juniors</a>
-                  </div>
-                  <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                      <li class="active"><a href="#">Home</a></li>
-                      <li><a href="#about">About</a></li>
-                      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSffbt4LucQBj-lHdHl13vO5bbEhWhiycHNx96g9OlVOuJGU4w/viewform?usp=pp_url"  src="https://docs.google.com/forms/d/e/1FAIpQLSffbt4LucQBj-lHdHl13vO5bbEhWhiycHNx96g9OlVOuJGU4w/viewform?usp=pp_url">Contact</a></li>
-                    </ul>
-                  </div>
-                  <!--/.nav-collapse -->
-                </div>
-              </div>
-              
-              <div class="container">
-                <div class="text-center">
-                  
-              </div>
-              <!-- /.container -->
-             <h1 style="color: white;">Reader juniors</h1>
-                <img class="object-cover object-center rounded" alt="hero" src="Laptop Img.jpg">
-              </div>
-              <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" style="color: white;">Welcome to Reader juniors
-               <br class="hidden lg:inline-block">
-                </h1>
-                <p class="mb-8 leading-relaxed" style="color: white;"> Make your Dream real with us .</p>
-                <div class="flex justify-center">
-                  <!DOCTYPE html>
-                  <html>
-                    <head>
-                      <title>Reader juniors</title>
-                      <style>
-                        .button {
-                          background-color: #1c87c9;
-                          border: 50px;
-                          color: white;
-                          padding: 20px 34px;
-                          text-align: center;
-                          text-decoration: none;
-                          display: inline-block;
-                          font-size: 20px;
-                          margin: 4px 2px;
-                          cursor: pointer;
-                        }
-                      </style>
-                    </head>
-                    <body>
-                      <a href="https://sanusingh19990.wixsite.com/my-site-4" class="button" style="border-radius: 50px;">Book a trial class now</a>
-                    </body>
-                  </html>
-                 
-      <hr>
-      <hr>     
-  <body>
-    
-
-      
-    <hr>
-  </div>
+  img{
+    width: 50px;
+    border-radius: 30px;
+  }
+</style>
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <img src="logo.png" alt="">
+  <h2>Reader Juniors</h2>
+  <h3>Services</h3>
+  <a href="plan.html">Plans</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
 </div>
-</body>
-</html>
-<hr>
-<h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"style="color: white;" >Our Galaxy superstar
-  
-  <br class="hidden lg:inline-block">
-   </h1>
-   <p style="color: white;">  Student name :ARYAN singh 
-   ,class 7th,
-   Rank :1</p>
-<html>
-  <head>
-    <title>Image Slider</title>
-    <style>
-      body {
-        margin: 10px auto;
-        text-align: center;
-      }
-      .content {
-        max-width: 800px;
-        text-align: left;
-        margin: auto;
-      }
-      .simple-ss {
-        width: 400px;
-        height: 350px;
-        background-color: #eeeeee;
-        margin: auto;
 
-        background-image: url("GALAXY\ superstars.png");
-        animation-name: slide;
-        animation-duration: 10s;
-        animation-direction: normal;
-        animation-timing-function: ease;
-        animation-iteration-count: infinite;
-      }
-      @keyframes slide {
-        0% {
-          background-position: 0 0;
-        }
-        16.66% {
-          background-position: 0 0;
-        }
-        33.32% {
-          background-position: -800px 0;
-        }
-        49.98% {
-          background-position: -800px 0;
-        }
-        66.64% {
-          background-position: -1600px 0;
-        }
-        83.30% {
-          background-position: -1600px 0;
-        }
-        100% {
-          background-position: 0 0;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="simple-ss"></div>
-    <div class="content">
-      <p>
-       
-
-        
-
-        <p style="color: white;">  Reader juniors GALAXY super star</p>
-      </p>
-    </div>
-  </body>
-</html>
-<hr>
-<h></h>
-
-
-      Monthly
-
-   <html>                 
-  <head>
-    <style>
-      .div1 {
-        box-sizing: content-box;
-        width: 70px;
-        height: 770px;
-        padding: 50px;
-        border: 5px double #1c87c9;
-      }
-      
-    </style>
-  </head>
-  <body>
-    <h2></h2>
-  
-  
-    <div class="div1"style="color: white;"> Subjects
-      <HR></HR>
-     
-   
-        
-     <p style="color: white;"> English</p>
-      
-      <hr>
-      <p style="color: white;"> science</p>
-<hr>
-<p style="color: white;"> Math</p>
-<hr>
-<p style="color: white;"> S.S.T</p>
-   <hr>
-   <p style="color: white;"> EVS</p>
-<hr>
-<p style="color: white;"> G.K & Quizzes</p>
-<hr>
-<p style="color: white;"> special discount30%</p>
-
-<hr>
-<p style="color: white;"> Total</p>
-<p style="color: white;"> Rs.700</p>
-<hr>
-<a href="qr.png" class="button">Buy now</a>
-</body>
-</html>
-
-     
-    </div>
-    <br>
-    <hr>
-    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Quizzes
-      <br class="hidden lg:inline-block">
-       </h1>
-    
-    <a href="https://quiz7th.netlify.app/" class="button">class 7th</a>
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
  
-  </body>
-</html>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
    
+</body>
+</html> 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+  <a href="tel:9936096266">CLICK TO CALL</a>
+<img id="myImg" src="Laptop Img.jpg" alt="Reader juniors is a Best online learning platform 
+here students can receive their real validate Marksheet after online yearly Exams and students will got scholarship
+According their Performance. " style="width:100%;max-width:300px">
+<!DOCTYPE html>
+<html>
+<style>
+#div1 {
+  font-size:48px;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<h1>Charge your Mind Like Battery
+With Reader-Jr</h1>
+<div id="div1" class="fa"></div>
+
+<script>
+function chargebattery() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf244;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf243;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf242;";
+    }, 2000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf241;";
+    }, 3000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf240;";
+    }, 4000);
+}
+chargebattery();
+setInterval(chargebattery, 5000);
+</script>
+
+
+</body>
+</html>
+<hr>
+<h2>Book a Trial Class Now</h2>
+<script src="https://sheetdb.io/s/f/l1buvplk9cnf5.js"></script>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+</body>
+</html>
